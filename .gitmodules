@@ -1,0 +1,3 @@
+[submodule "dotbrick"]
+	path = dotbrick
+	url = git@github.com:dotbrick/dotbrick.git
