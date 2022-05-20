@@ -4,7 +4,7 @@ __LIST_PATH="$1"
 __TO_DIR="$2"
 
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-__dotbrick_path="$__dir"/dotbrick
+__dotbrick_path=~/.dotbrick
 
 while read -r dir; do
   if [[ -z "$dir" ]]; then

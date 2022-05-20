@@ -3,8 +3,8 @@
 __config_name="$1"
 
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-__dotbrick_path="$__dir"/dotbrick
-__docker_dotfiles_path="$__dir"/.dotfiles
+__dotbrick_path=~/.dotbrick
+__docker_dotfiles_path="$__dir"/.dotbrick
 
 mkdir "$__docker_dotfiles_path"
 
